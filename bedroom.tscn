@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dm2dwg8w022ke"]
+
+[ext_resource type="Texture2D" uid="uid://dh0hsw8lt5mlh" path="res://assets/better bedroom.png" id="1_kbogo"]
+[ext_resource type="Script" path="res://bedroom.gd" id="1_qekfp"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_qekfp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, 4)
+texture = ExtResource("1_kbogo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
